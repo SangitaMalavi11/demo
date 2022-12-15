@@ -1,0 +1,22 @@
+package Methods1;
+
+public class TestData {
+
+	public static void main(String[] args) {
+		Data d1 =new Data();
+		System.out.println("Before");
+		System.out.println(d1.getX());
+		System.out.println(d1.getY());
+		System.out.println(d1.getZ());
+		
+		d1.setX(10);
+		d1.setY(20);
+		d1.setZ(30);
+		
+		System.out.println("After");
+		System.out.println(d1.getX());
+		System.out.println(d1.getY());
+		System.out.println(d1.getZ());
+	}
+
+}
