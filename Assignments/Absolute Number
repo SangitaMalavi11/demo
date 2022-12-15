@@ -1,0 +1,22 @@
+package Assignment;
+
+import java.util.Scanner;
+
+public class AbsoluteNumber {
+
+	public static void main(String[] args) {
+		int n;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number ");
+		
+		n=sc.nextInt();
+		
+		if(n<0)
+			System.out.println("absolute value="+(n*(-1)));
+		else
+			System.out.println("absolute value="+n);
+		
+		
+	}
+
+}
