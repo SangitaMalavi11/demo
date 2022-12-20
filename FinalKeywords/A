@@ -1,0 +1,13 @@
+package finalexample;
+
+public class A {
+	public int i =100; //instance
+	public void m1()
+	{
+	int i=1000; //local
+	System.out.println("local i ="+i);
+	System.out.println("instance i="+this.i);
+	}
+	
+
+}
